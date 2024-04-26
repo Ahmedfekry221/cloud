@@ -22,7 +22,7 @@ def count_word_frequency(text):
     return word_freq
 
 # Read the contents of the file
-with open("C:/Users/KING/Desktop/Assignment/paragraphs.txt", "r") as file:
+with open("paragraphs.txt", "r") as file:
     text = file.read()
 
 # Count word frequency
